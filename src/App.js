@@ -1,5 +1,5 @@
 import Nav from "./components/Nav";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Home from "./pages/Home.jsx";
 import Books from "./pages/Books.jsx";
 import Footer from "./components/Footer";

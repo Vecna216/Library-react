@@ -32,7 +32,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                 return (
                   <div className="cart__item">
                     <div className="cart__book">
-                      <img src={book.url}
+                      <img src={book.url} alt={book.title}y
                       className="cart__book--img"/>
                     <div className="cart__book--info">
                       <span className="cart__book--title">{book.title}</span>
